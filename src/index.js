@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Mod01Registration from './Mod01Registration';
-import ExpressionJSX from './ExpressionJSX';
+import GreetHello from './Greetings/GreetHello';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ExpressionJSX />
+    <GreetHello />
   </React.StrictMode>
 );
 
