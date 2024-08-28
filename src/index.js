@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Mod01Registration from './Mod01Registration';
 import GreetHello from './Greetings/GreetHello';
+import Homepage from './Greetings/Conditionals/Homepage';
+import LogAdmin from './Dashboard/LogAdmin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GreetHello />
+    <LogAdmin/>
   </React.StrictMode>
 );
 
