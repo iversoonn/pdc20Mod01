@@ -7,11 +7,14 @@ import Mod01Registration from './Mod01Registration';
 import GreetHello from './Greetings/GreetHello';
 import Homepage from './Greetings/Conditionals/Homepage';
 import LogAdmin from './Dashboard/LogAdmin';
+import ClassDemo from './ComponentDemo/ClassDemo';
+import FunctionDemo from './ComponentDemo/FunctionalDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LogAdmin/>
+    <ClassDemo/>
+    <FunctionDemo/>
   </React.StrictMode>
 );
 
